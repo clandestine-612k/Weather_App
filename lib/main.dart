@@ -17,3 +17,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+//C:\Users\banda\Desktop\weather_app\android\appname.jks

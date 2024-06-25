@@ -31,12 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.1
-  intl: ^0.19.0
-  flutter_launcher_icons: ^0.13.1
-flutter_icons:
-  image_path: "web/icons/icon-192.png"
-  anroid: true
-  ios: true   
+
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -47,6 +42,13 @@ flutter_icons:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+  change_app_package_name: ^1.2.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "app/src/main/res/mipmap-hdpi/ic_launcher.png"    
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
