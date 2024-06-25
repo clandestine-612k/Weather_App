@@ -31,6 +31,12 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.1
+  intl: ^0.19.0
+  flutter_launcher_icons: ^0.13.1
+flutter_icons:
+  image_path: "web/icons/icon-192.png"
+  anroid: true
+  ios: true   
 
 
   # The following adds the Cupertino Icons font to your application.

@@ -5,7 +5,6 @@ import 'package:intl/intl.dart';
 import 'Additional_info.dart';
 import 'hourly_weather_forecast.dart';
 import 'package:http/http.dart' as http;
-
 import 'secrests.dart';
 
 class WeatherScreen extends StatefulWidget {
