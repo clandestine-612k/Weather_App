@@ -2,10 +2,10 @@ import 'dart:convert';
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'Additional_info.dart';
-import 'hourly_weather_forecast.dart';
+import 'package:weather_app/presentations/widgets/additional_info.dart';
+import '../widgets/hourly_weather_forecast.dart';
 import 'package:http/http.dart' as http;
-import 'secrests.dart';
+import '../../secrests.dart';
 
 class WeatherScreen extends StatefulWidget {
   const WeatherScreen({super.key});
